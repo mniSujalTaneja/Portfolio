@@ -1,4 +1,4 @@
-export default function ProjectCard({project}){
+export default function Projectcard({project}){
     return(
         <div className="bg-white shadow-xl rounded-2xl overflow-hidden border border-sky-100 hover:shadow-2xl transition">
             <img src={project.image} alt={project.title} className="w-full h-48 object-cover" />

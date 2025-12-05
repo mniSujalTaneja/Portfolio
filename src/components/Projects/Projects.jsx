@@ -1,4 +1,4 @@
-import ProjectCard from "./Projectcard";
+import Projectcard from "./Projectcard";
 import projectData from "./projectsData"
 export default function Projects(){
     return(
@@ -8,7 +8,7 @@ export default function Projects(){
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
                 {projectData.map((project)=>(
-                    <ProjectCard key={project.id} project={project}/>
+                    <Projectcard key={project.id} project={project}/>
                 ))}
             </div>
         </section>
