@@ -1,4 +1,4 @@
-import Projectcard from "./Projectcardtemp";
+import Projectcard from "./Projectcard";
 import projectData from "./projectsData"
 export default function Projects(){
     return(
