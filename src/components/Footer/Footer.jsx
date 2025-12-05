@@ -11,7 +11,7 @@ export default function Footer(){
                     <a href="https://www.linkedin.com/in/sujal-taneja-0b7721398" target="_blank" className=" text-gray-600 hover:text-sky-600 transition text-2xl">
                         <i className="bi bi-linkedin"></i>
                     </a>
-                    <a href="mailto:mnisujaltaneja@gmail.com" className="text-gray-600 hover:text-sky transition text-2xl [&>*]:hover:text-sky-600 ">
+                    <a href="mailto:mnisujaltaneja@gmail.com" className="text-gray-600 hover:text-sky-600 transition text-2xl">
                         <i className="bi bi-envelope-fill"></i>
                     </a>
                 </div>
