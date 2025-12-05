@@ -1,8 +1,8 @@
-import Navbar from "./components/Navbar/Navbar";
-import Hero from "./components/Hero/Hero";
-import Projects from "./components/Projects/Projects";
-import Skills from "./components/Skills/Skills";
-import Footer from "./components/Footer/Footer";
+import Navbar from "./components/Navbar/Navbar.jsx";
+import Hero from "./components/Hero/Hero.jsx";
+import Projects from "./components/Projects/Projects.jsx";
+import Skills from "./components/Skills/Skills.jsx";
+import Footer from "./components/Footer/Footer.jsx";
 function App() {
   return (
     <>

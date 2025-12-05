@@ -6,8 +6,6 @@ export default function Footer() {
                 <p className="text-gray-500 text-sm mt-1">Frontend Developer • React • JavaScript</p>
 
                 <div className="flex justify-center gap-6 mt-4">
-                    
-                    {/* GitHub */}
                     <a 
                         href="https://github.com/mniSujalTaneja" 
                         target="_blank" 
@@ -17,7 +15,6 @@ export default function Footer() {
                         <i className="bi bi-github"></i>
                     </a>
 
-                    {/* LinkedIn */}
                     <a 
                         href="https://www.linkedin.com/in/sujal-taneja-0b7721398/" 
                         target="_blank" 
@@ -27,7 +24,6 @@ export default function Footer() {
                         <i className="bi bi-linkedin"></i>
                     </a>
 
-                    {/* Email */}
                     <a 
                         href="mailto:mnisujaltaneja@gmail.com" 
                         className="text-gray-600 hover:text-sky-600 transition text-2xl"
