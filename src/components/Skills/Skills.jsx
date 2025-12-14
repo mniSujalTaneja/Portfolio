@@ -3,7 +3,7 @@ export default function Skills(){
         { name: "HTML", icon: "🌐" },
         { name: "CSS", icon: "🎨" },
         { name: "JavaScript", icon: "⚡" },
-        { name: "React", icon: "⚛️" },
+        { name: "React.js", icon: "⚛️" },
         { name: "Tailwind CSS", icon: "💠" },
         { name: "Git & GitHub", icon: "📁" },
         { name: "Responsive Design", icon: "📱" },

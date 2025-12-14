@@ -21,9 +21,9 @@ export default function Projectcard({project}){
                     <a href={project.github} target="_blank" className="w-full text-center py-2 rounded-xl bg-gray-800 text-white font-semibold hover:bg-black transition">
                         GitHub
                     </a>
-                    <a href={project.video} target="_blank" className="w-full text-center py-2 rounded-xl bg-red-500 text-white font-semibold hover:bg-red-600 transition">
+                    {project.video&&<a href={project.video} target="_blank" className="w-full text-center py-2 rounded-xl bg-red-500 text-white font-semibold hover:bg-red-600 transition">
                        Watch Tutorial 
-                    </a>
+                    </a>}
                 </div>
             </div>
         </div>
