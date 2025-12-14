@@ -2,7 +2,7 @@ import React from 'react'
 import photo from "../../assets/photo.jpeg"
 const Hero = () => {
     return (
-        <section id='home' className='w-full min-h-screen flex items-center bg-gradient-to-r from-white to-[#E0F2FF] pt-24'>
+        <section id='home' className='w-full min-h-[85vh] md:min-h-screen flex items-center bg-gradient-to-r from-white to-[#E0F2FF] pt-24'>
             <div className='max-w-6xl mx-auto px-6 py-12 grid md:grid-cols-2 gap-10'>
                 <div className='flex flex-col justify-center'>
                     <h1 className="text-3xl md:text-5xl font-bold text-[#0F172A] leading-tight">
