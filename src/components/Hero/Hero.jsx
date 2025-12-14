@@ -1,5 +1,5 @@
 import React from 'react'
-
+import photo from "../../assets/photo.jpeg"
 const Hero = () => {
     return (
         <section id='home' className='w-full min-h-screen flex items-center bg-gradient-to-r from-white to-[#E0F2FF] pt-24'>
@@ -25,7 +25,13 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className='flex mt-10 items-center justify-center md:mt-0'>
-                    <div className='w-40 h-40 md:w-64 md:h-64 bg-white shadow-md rounded-xl border border-[#E2E8F0]'></div>
+                    <div className='w-40 h-40 md:w-64 md:h-64 bg-white shadow-md rounded-xl border border-[#E2E8F0] overflow-hidden'>
+                        <img
+                            src={photo}
+                            alt="Sujal"
+                            className="w-full h-full object-cover"
+                        />
+                    </div>
                 </div>
             </div>
 
