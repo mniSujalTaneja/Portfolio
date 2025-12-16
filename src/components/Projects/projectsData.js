@@ -9,7 +9,7 @@ export const projectsData = [
       "A modern AI-powered chatbot supporting voice and text input with features like weather updates, jokes, wiki summaries, and math calculations. Built with a clean, responsive UI.",
     image: kuroImg,
     technologies: ["React", "Vite", "Tailwind CSS", "Speech Recognition"],
-    video: "",
+    video: "https://youtu.be/jES3qBS1738?si=6dHi_DChRYUV7pW8",
     github: "https://github.com/mniSujalTaneja/KURO",
     demo: "https://kuro-ai-three.vercel.app/",
   },
